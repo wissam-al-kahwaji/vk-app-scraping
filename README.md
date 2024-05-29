@@ -69,7 +69,7 @@ You can utilize VkApp as a class within your Python projects. Here's a brief exp
     vk_app = VkApp()
 
     # Extract comments from a VK post without saving to a CSV file
-    comments = vk_app.get(url="https://vk.com/wall-[id]")
+    comments = vk_app.get(url="https://vk.com/wall-id")
     ```
 
 5. **Processing Comments**: The `get` method returns a list of comments extracted from the VK post. You can then process these comments as needed within your application.
